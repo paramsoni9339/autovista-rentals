@@ -1,3 +1,4 @@
+import CTASection from "../sections/CTASection";
 import HeroSection from "../sections/HeroSection";
 import ServiceSection from "../sections/ServiceSection";
 // import all sections imports here
@@ -9,6 +10,10 @@ const HomePage = () => {
       <HeroSection />
       <ServiceSection />
       <EventTypeSection />
+
+      {/* captivating CTA:3D EXP  */}
+      <CTASection />
+      
     </div>
   );
 };
