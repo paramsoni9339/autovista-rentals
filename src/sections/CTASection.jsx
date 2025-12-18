@@ -36,7 +36,10 @@ const CTASection = () => {
         <div className="absolute inset-0 bg-transparent overflow-hidden">
           {/* 3d canvas container */}
 
-          <div className="absolute hidden lg:block bg-transparent inset-0">{/* 3d canvas component */}</div>
+          <div className="absolute hidden lg:block bg-transparent inset-0">
+            {/* 3d canvas component */}
+            
+            </div>
 
           {/* decor:side overlays */}
           <div className="absolute h-full w-20 md:w-40 lg:w-80 lg:pointer-events-none bg-gradient-to-r from-zinc-950 to-transparent"></div>
