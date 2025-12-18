@@ -1,4 +1,7 @@
-import { ArrowRight, Section } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import CarCard from "../components/CarCard";
+import { carUsageCategories } from "../assets/assets";
+
 
 const EventTypeSection = () => {
   return (
@@ -17,15 +20,22 @@ const EventTypeSection = () => {
             </p>
           </div>
           {/* button */}
-          <button className="hidden md:hidden bg-blue-300 text-zinc-800 py-3 px-5 rounded-full 
+          <button
+            className="hidden md:hidden bg-blue-300 text-zinc-800 py-3 px-5 rounded-full 
           cursor-pointer hover:bg-transparent border border-transparent hover:border-zinc-100 
-          transition-all duration-200 ease-out hover:text-zinc-200 clash-dsiplay flex items-center gap-2 h-fit lg:centered-row gap-2 ">
+          transition-all duration-200 ease-out hover:text-zinc-200 clash-display flex items-center gap-2 h-fit lg:centered-row gap-2"
+          >
             See all <ArrowRight className="w-8 text-sm" />
           </button>
         </div>
 
         {/* grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">{/* car cards */}</div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
+          {/* car cards */}
+          {carUsageCategories.map((event, index) => (
+            <CarCard key={index} {...event} />
+          ))}
+        </div>
       </div>
     </section>
   );

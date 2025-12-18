@@ -1,4 +1,4 @@
-const BookNowButton = () => {
+const BookNowButton = ({ type }) => {
   return (
     <button
       className={`${

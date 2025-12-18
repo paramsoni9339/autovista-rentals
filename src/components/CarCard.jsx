@@ -19,9 +19,9 @@ const CarCard = ({ image, name }) => {
       {/* BTNS */}
       <div className="bottom-0 bg-gradient-to-t w-full from-zinc-950 to-transparent centered-row justify-between p-7">
         {/* price per day */}
-        <p className="">$150/day</p>
+        <p className="text-lg clash-display">$150/day</p>
         {/* book button */}
-        <BookNowButton />
+        <BookNowButton type={1} />
       </div>
     </div>
   );
