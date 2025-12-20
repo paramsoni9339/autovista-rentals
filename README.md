@@ -1,4 +1,4 @@
-![Wallpaper Car GIF](https://tenor.com/t9FNnssxWuF.gif)
+![Wallpaper Car GIF](https://media1.tenor.com/m/6NxALKivEZ8AAAAd/wallpaper-car.gif)
 
 
 # 🏎️ AutoVista Rentals
